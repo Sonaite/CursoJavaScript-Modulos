@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nascionalidade</title>
+</head>
+<body>
+    <h1>Nascionalidade</h1>
+
+    <label for="ipais">Qual sua nascionalidade? </label>
+    <input type="text" name="pais" id="ipais" >
+
+    <input type="submit" value="ver" onclick="clicou()">
+
+    <div id="res">Nascionalidade:</div>
+
+
+    <script>
+
+function clicou() {
+            var pais = document.getElementById('ipais').value.toLowerCase().trim();
+            var res = document.getElementById('res');
+
+            if (pais === 'brasil') {
+                res.innerHTML = 'Você é brasileiro!';
+            } else {
+                res.innerHTML = 'Você é estrangeiro!';
+            }
+        }
+       
+    </script>
+    
+</body>
+</html>
