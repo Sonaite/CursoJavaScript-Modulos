@@ -19,11 +19,19 @@
 
     <div id="div">aqui vai o resultado</div>
     <p>apredendo a usar <strong>Dom</strong> em js</p>
+
  
 
     <p id="texto">clique em mim</p>
 
+    <h3>sonayte teste</h3>
+
    <script>
+
+    var teste = window.document.getElementsByTagName('h3')[0]
+    teste.innerHTML = 'mudei h3'
+    teste.style.color = 'pink'
+
     var p1 = window.document.getElementsByTagName('p')[0]
 
     window.document.write("esta escrito assim: " + p1.innerHTML)
