@@ -4,8 +4,7 @@ font: normal 15pt arial;
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
+  
     color: white;
     text-align: center;
    align-items: center;
@@ -23,7 +22,7 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.479);
-    display: none;
+   
     
 }
 

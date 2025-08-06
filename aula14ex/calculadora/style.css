@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+}
+body{
+   
+  height: 100vh;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     
+    background-image: linear-gradient( to left,
+ rgba(0, 0, 0, 0.966), 
+  rgba(128, 0, 128, 0.445), 
+  rgba(0, 0, 0, 0.966)
+);
+
+}
+
+header{
+   background-color: black;
+   border-radius: 0px 10px 0 0 ;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+    color: white;
+    
+}
+
+menu{
+    display: flex;
+    justify-content: space-around;
+}
+header > menu >  a{
+    color: white;
+    text-decoration: none;
+    color: rgba(255, 192, 203, 0.178);
+
+   
+}
+header > h1{
+    padding-top: 30px;
+   
+
+}
+.gradiente-texto {
+  font-size: 50px;
+  font-weight: bold;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.966), rgba(128, 0, 128, 0.445), rgba(255, 192, 203, 0.178));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.bloco-numeros{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.966), rgba(128, 0, 128, 0.445), rgba(255, 192, 203, 0.178));
+    padding: 30px;
+     border-radius: 0 0 10px 10px;
+     width: 400px;
+    
+
+}
+#tela{
+    color: white;
+background-color: rgb(10, 10, 10);
+    padding: 50px;
+    font-size: 26pt;
+   
+}
+hr{
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;           /* Remove a borda padrão */
+  height: 2px;            /* Define a altura da linha */
+  background-color: rgba(255, 255, 255, 0.068);  /* Define a cor da linha */
+  margin: 10px 0;         /* Espaçamento (opcional) */
+  
+}
+
+
+.Calculadora{
+    margin: auto;
+  width: 400px;
+    display: flex;
+   flex-direction: column;
+   display: block;
+
+ 
+    
+    
+      
+}
+
+
+
+
+.c{
+
+    background-color: rgba(248, 104, 104, 0.938);
+}
+button{
+    width: 70px;
+    height: 40px;
+    padding-top: 4px;
+    margin-top: 4px;
+    box-shadow: 4px 4px 4px black;
+}
+.igual{
+    background-color: rgba(0, 128, 0, 0.459);
+}
+button:hover{
+    background-color: rgba(129, 45, 207, 0);
+}
+a:hover{
+    background-color: rgba(128, 0, 128, 0.445);
+    
+}
+footer{
+    padding: 20px;
+    
+   
+}
+
+
+
+
+
